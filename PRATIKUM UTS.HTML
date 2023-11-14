@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRATIKUM UTS</title>
+    <style>        
+label {
+    display: inline-block;
+    width: 150px; 
+    text-align: left; 
+    margin-right: 25px;
+  }
+  input {
+    width: 200px;
+  }</style>
+</head>
+<fieldset>
+    <legend>
+    <h3>from registrasi rekeasi kuliner</h3>
+    </legend>
+<body>
+<form action="/submit_form">
+
+  <label for="fname">Nama Tempat wisata</label>
+  <input type="text" id="fname" name="fname">
+  <br>
+  <br>
+  <label for="jenis wisata">jenis wisata</label>
+  <select name="jenis wisata" id="jenis wisata">
+    <option value="">kedai kopi</option>
+    <option value="">rumah makan padang</option>
+    <option value="">rumah makan khas jawa</option>
+  </select>
+  <br><br>
+  <label for="alamat">deskripsi wisata</label>
+      <textarea name="keterangan" id="keterangan" cols="30" rows="3"></textarea>
+<br><br>
+      <label for="fname">kontak person:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+
+<label for="fname">No HP/telpon:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+
+  <label for="fname">email:</label>
+  <input type="text" id="fname" name="fname">
+<br><br>
+  <label for="fname">alamat web:</label>
+  <input type="text" id="fname" name="fname"placeholder="http//">
+<br><br>
+  <label for="fname">alamat lengkap:</label>
+  <input type="text" id="fname" name="fname">
+<br><br>
+  <label for="fname">Latitude,Langitude:</label>
+  <input type="text" id="fname" name="fname">
+<br><br>
+  <input type="submit" value="daftar">
+  <input type="submit" value="batal">
+</body>
+</fieldset>
+</html>
